@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: "20"
 
-      # WICHTIG: Ohne Lockfile -> npm install statt npm ci
+      # Kein Lockfile -> npm install
       - name: Install dependencies
         run: npm install
 
@@ -31,6 +31,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
-          local-dir: dist
-          server-dir: ${{ secrets.FTP_TARGET }}
+          local-dir: dist/          # <— WICHTIG: Slash am Ende!
+          server-dir: ${{ secrets.FTP_TARGET }}  # z.B. public_html/
           dangerous-clean-slate: true
