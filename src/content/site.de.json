@@ -1,0 +1,61 @@
+{
+  "intro": {
+    "headline": "Sie wollen raus aus der Krise –\nwir zeigen Ihnen den Weg.",
+    "subline": "Begleitung zu einer geordneten Lösung – diskret, rechtssicher und menschlich."
+  },
+  "hero": {
+    "badge": "Unternehmensübernahme",
+    "title": "Begleitung bei Unternehmensübernahmen",
+    "subtitle": "Sachliche Beratung und strukturierte Umsetzung",
+    "qualities": ["Diskret", "Strukturiert", "Verlässlich"],
+    "buttons": {
+      "primaryLabel": "Prozess",
+      "mailtoLabel": "Nachricht senden"
+    }
+  },
+  "features": [
+    {
+      "title": "Optionen verstehen",
+      "desc": "Exit-Strategien, Haftungsfragen, steuerliche Folgen – verständlich erklärt",
+      "icon": "Rocket"
+    },
+    {
+      "title": "Käufer finden",
+      "desc": "Gezieltes Matching mit Investor:innen/Übernehmer:innen – diskret & passgenau",
+      "icon": "Gauge"
+    },
+    {
+      "title": "Übergabe umsetzen",
+      "desc": "Termsheet bis Closing: Koordination mit Rechtsanwalt/Steuerberatung",
+      "icon": "ShieldCheck"
+    }
+  ],
+  "process": {
+    "title": "Prozess",
+    "introText": {
+      "h2": "Viele Unternehmer:innen kämpfen mit Überschuldung, Liquiditätsproblemen oder drohender Insolvenz.",
+      "p1": "Oft fehlen Zeit, Ressourcen oder Know-how, um einen Ausweg zu finden.",
+      "h3": "Hinzu kommt die emotionale Belastung – Scham, Druck, Unsicherheit.",
+      "p2": "Die gute Nachricht: Es gibt Lösungen, ohne Insolvenz."
+    },
+    "steps": [
+      { "step": 1, "title": "Erste Kontaktaufnahme", "desc": "kostenlos & vertraulich" },
+      { "step": 2, "title": "Prüfung Ihrer Situation", "desc": "rechtlich, steuerlich, betriebswirtschaftlich" },
+      { "step": 3, "title": "Lösungsvorschlag", "desc": "transparent und umsetzbar" },
+      { "step": 4, "title": "Übernahmeprozess", "desc": "juristische & steuerliche Begleitung" }
+    ]
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "text": "Wenn Sie eine Frage haben, schreiben Sie uns eine kurze Nachricht.",
+    "email": "contact@companyexit.org",
+    "subject": "Anfrage: Unternehmensübernahme",
+    "body": "Hallo Team CompanyExit,\n\nich habe eine kurze Frage zum Thema Unternehmensübernahme.\n\nBeste Grüße,\n[Name]\n[Telefon]",
+    "mailto": "mailto:contact@companyexit.org?subject=Anfrage%3A%20Unternehmens%C3%BCbernahme&body=Hallo%20Team%20CompanyExit%2C%0A%0Aich%20habe%20eine%20kurze%20Frage%20zum%20Thema%20Unternehmens%C3%BCbernahme.%0A%0ABeste%20Gr%C3%BC%C3%9Fe%2C%0A%5BName%5D%0A%5BTelefon%5D"
+  },
+  "images": {
+    "pattern": "https://customer-assets.emergentagent.com/job_acquisition-hub/artifacts/cklxyzct_IMG_0865.jpeg",
+    "steps": "https://customer-assets.emergentagent.com/job_acquisition-hub/artifacts/8xrv6pgw_IMG_0866.jpeg",
+    "handshake": "https://customer-assets.emergentagent.com/job_acquisition-hub/artifacts/lp60c4pk_shaking-hands-3091906_1920.jpg"
+  }
+}

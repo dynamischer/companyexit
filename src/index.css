@@ -2,5 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --radius: 12px; }
-.card { @apply rounded-xl shadow-soft bg-card; }
+/* Global variables */
+:root {
+  --radius: 12px;
+
+  /* Farben */
+  --color-primary: #2563eb;   /* Blau: Buttons, Links */
+  --color-secondary: #9333ea; /* Lila: Akzente */
+  --color-background: #f9fafb; /* Hellgrau: Hintergrund */
+  --color-text: #111827;      /* Fast schwarz: Standardtext */
+}
+
+/* Smooth Scroll für Anker-Links */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+/* Beispiel Card-Komponente */
+.card {
+  @apply rounded-xl shadow-md bg-white p-4;
+}
+
+/* Utility Klassen */
+.text-primary {
+  color: var(--color-primary);
+}
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
